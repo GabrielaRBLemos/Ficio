@@ -2,7 +2,7 @@
   
 # Ficio
 
-Um app que ensina literatura, português e matemática para crianças do ensino fundamental
+Um app que auxilia no ensino de literatura para crianças do ensino fundamental, feito em colaboração com a [Biblioteca Comunitária Carangueijo Tabaiares](https://www.facebook.com/bibliotecacomunitariacaranguejo/?_rdc=2)
 
 </div>
 
