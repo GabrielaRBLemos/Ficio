@@ -6,10 +6,6 @@ Um app que auxilia no ensino de literatura para crianças do ensino fundamental,
 
 </div>
 
-## Características
-
-Em construção
-
 ## Instalação
 
 Em construção
