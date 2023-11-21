@@ -6,22 +6,14 @@ Um app que auxilia no ensino de literatura para crianças do ensino fundamental,
 
 </div>
 
-## Instalação
-
-Em construção
-
-## Uso
-
-Em construção
-
 ## Licensa
 
 [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## Autores
 
-Em construção
-
-## Agradecimentos
-
-Em construção
+- Gabriela Lemos
+- Gabriel Bezerra Pereira
+- Guilherme Brito
+- Isaac Uchoa
+- Juliana Tenório
