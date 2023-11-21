@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="main.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questões</title>
+    <meta name="author" content="Gabriela Lemos, Gabriela Lemos">
+  </head>
+
+  <body>
+    <div id="Logo">
+        <img src="assets/logo.svg" class="logo"/>
+        <img src="assets/biblioteca_logo.svg" class="logo2"/>
+        <div class="barra"></div>
+        <div class="barra2"><h1 class="pergunta">Pergunta <span id="question-num"></span></h1></div>
+        <h2 id="subject" class="subject"></h2>
+        <div class="barra3"></div>
+    </div>
+    <button class="butthelp" id="butthelp" onclick="ajuda()">?
+      <span class="tooltiptext" id="tooltiptext">
+        <p>Aqui esta a sua ficha, leia as questões com cuidado, e marque a alternativa correta!</p>
+        <p>Qualquer duvida, chame algum funcionário da biblioteca!</p>
+      </span>
+    </button>
+
+    </div>
+    <div class="panel">
+        <div class="question" id="ques"></div>
+        <div class="options" id="opt"></div>
+        <button class="btn" id="btn">Confirmar</button>
+        <div class="score" id="score"></div>
+        <a href="index.html">
+          <button class="voltar" id="volta">Menu Inicial</button>
+        </a>
+        <a href="materias.html">
+          <button class="denovo" id="denovo">Criar outra Ficha</button>
+        </a>
+    </div>
+</body>

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="main.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assuntos</title>
+    <meta name="author" content="Gabriela Lemos, Gabriel Pereira">
+  </head>
+
+  <body>
+    <div id="Escolher_Assuntos">
+        <div id="Logo">
+          <img src="assets/logo.svg" class="logo"/>
+          <img src="assets/biblioteca_logo.svg" class="logo2"/>
+          <div class="barra"></div>
+          <div class="barra2"><h1 class="text01">Escolha uma opção</h1></div>
+          <div class="barra3"></div>
+        </div>
+        <div class="modal-container">
+          <div class="modal-content-container">
+            <div class="tela">
+              <div class="assuntos">
+                <div class="barraAssunto">
+                <strong class="text1">Qual Assunto?</strong>
+              </div>
+                
+                <button class="butthelpassuntos" id="butthelpassuntos" >?
+                  <span class="tooltiptext" id="tooltiptext">
+                    <p>Aqui você pode escolher o assunto da sua ficha, basta clicar e escolher qual assunto você quer!</p>
+                    <p>Qualquer duvida, chame algum funcionario da biblioteca!</p>
+                  </span>
+                </button>
+
+                <!--
+                <select name="assunts" id="assuntos_matematica" class="assunti">
+                  <option value="numeros">Numeros</option>
+                  <option value="operações">Operações</option>
+                  <option value="padrões">Padrões</option>
+                  <option value="geometria">Geometria</option>
+                  <option value="grandezas">Grandezas e Medidas</option>
+                  <option value="probabilidade">Probabilidade e Estatistica</option>
+                  <option value="educação">Educação Financeira</option>
+                </select>
+                -->
+               <!-- 
+                <select name="assunts" id="assuntos_portugues" class="assunti">
+                  <option value="termos">Termos da oração</option>
+                  <option value="acentuação">Acentuação</option>
+                  <option value="pontuação">Pontuação</option>
+                  <option value="ortografia">Ortografia</option>
+                  <option value="crase">Crase</option>
+                  <option value="corcodancia">Concordância</option>
+                </select>
+              -->
+
+                <select name="assunts" id="assuntos_literatura" class="assunti">
+                  <option value="recife" id="recife">Recife</option>
+                  <!--
+                  <option value="classicos" id="classicos">Classicos da Literatura</option>
+                  -->
+                  <option value="cubas" id="cubas">Memórias Póstumas de Brás Cubas</option>
+                  <option value="marcelo_marmelo_martelo" id="marcelo_marmelo_martelo">Marcelo, Marmelo, Martelo</option>
+                  <option value="reinacoes_de_narizinho" id="reinacoes_de_narizinho">Reinações de Narizinho</option>
+                  <option value="macunaima" id="macunaima">Macunaíma</option>
+                  <option value="flicts" id="flicts">Flicts</option>
+                  <option value="maluquinho" id="maluquinho">O Menino Maluquinho</option>
+                  <option value="principe" id="principe">O Pequeno Príncipe</option>
+                  <option value="pedrinho_pintor" id="pedrinho_pintor">Pedrinho Pintor</option>
+                  <!--
+                  <option value="interpretação" id="interpretação">Interpretação de textos</option>
+                  <option value="historia" id="historia">Historia</option>
+                  -->
+                </select>
+              </div>
+              <div class="questoes">
+                <div class="barraQuestoes">
+                <strong class="text2">Quantas Questões?</strong>
+              </div>
+                <button class="butthelpquestoes" id="butthelpquestoes" >?
+                  <span class="tooltiptext" id="tooltiptext">
+                    <p>Aqui Você pode escolher quantas questões quer na sua ficha, basta selecionar a quantidade!</p>
+                    <p>Qualquer duvida, chame algum funcionário da biblioteca!</p>
+                  </span>
+                </button>
+                <div class="questoes">
+                  <div class="barraQuestoes">
+                    <strong class="text2">Quantas Questões?</strong>
+                  </div>
+                  <button class="butthelpquestoes" id="butthelpquestoes" >?
+                    <span class="tooltiptext" id="tooltiptext">
+                      <p>Aqui Você pode escolher quantas questões quer na sua ficha, basta selecionar a quantidade desejada no menu suspenso!</p>
+                      <p>Qualquer dúvida, chame algum funcionário da biblioteca!</p>
+                    </span>
+                  </button>
+                  <select name="quantity" id="quantity" class="dropdown">
+                    <option value="3">3 Questões</option>
+                    <option value="4">4 Questões</option>
+                    <option value="5">5 Questões</option>
+                    <option value="6">6 Questões</option>
+                    <option value="7">7 Questões</option>
+                    <option value="8">8 Questões</option>
+                    <option value="9">9 Questões</option>
+                    <option value="10">10 Questões</option>
+                    <option value="11">11 Questões</option>
+                    <option value="12">12 Questões</option>
+                    <option value="13">13 Questões</option>
+                    <option value="14">14 Questões</option>
+                    <option value="15">15 Questões</option>
+                    <option value="16">16 Questões</option>
+                    <option value="17">17 Questões</option>
+                    <option value="18">18 Questões</option>
+                    <option value="19">19 Questões</option>
+                    <option value="20">20 Questões</option>
+                  </select>
+                </div>                
+              </div>
+          <div class="modal-button-container">
+            <a href="questao.html">
+              <button class="butt" id="butt">Iniciar Ficha</button>
+            </a>
+            <button class="butthelp" id="butthelp" >?
+              <span class="tooltiptext" id="tooltiptext">
+                <p>Aqui Você pode selecionar qual assunto quer ver, e quantas questões quer na sua ficha</p>
+                <p>Qualquer duvida, chame algum funcionario da biblioteca!</p>
+              </span>
+            </button>
+          </div>
+        </div>
+        </div>
+
+        </div>
+      </div>
+  </body>
+</html>
