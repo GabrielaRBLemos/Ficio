@@ -61,7 +61,7 @@ var materia = "literatura";
 var nivel = "Fácil";
 var pontos = 0;
 
-if (pagina == "/www/materias.html"){
+if (pagina == "/materias.html"){
   var mater = document.getElementById("materis");
   var level = document.getElementById("nivels");
   // Salva a Materia
@@ -96,7 +96,7 @@ if (pagina == "/www/materias.html"){
     localStorage.setItem('nivel', level.value);
   });
 
-}else if (pagina == "/www/assunto.html") {
+}else if (pagina == "/assunto.html") {
   // Recarrega a Materia e o Nivel selecionado anteriormente
   const materia = localStorage.getItem('materia');
   const nivel = localStorage.getItem('nivel');
@@ -143,7 +143,7 @@ if (pagina == "/www/materias.html"){
     localStorage.setItem('assunto', selector.value);
     localStorage.setItem('amount', quantityDropdown.value);
   });
-}else if (pagina == "/www/questao.html") {
+}else if (pagina == "/questao.html") {
 
   // Recarrega o Assunto, a Quantidade e o Nivel das Questões
   const assunto = localStorage.getItem('assunto');
