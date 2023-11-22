@@ -54,6 +54,10 @@ function FiltrarAssuntos(materia){
 }
 
 var pagina = window.location.pathname;
+
+var teste = document.getElementById("teste");
+teste.value = pagina;
+
 var amount = 3;
 var assunto = "marcelo_marmelo_martelo";
 var assuntoNome = "Marcelo, Marmelo, Martelo";
