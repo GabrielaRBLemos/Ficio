@@ -54,10 +54,6 @@ function FiltrarAssuntos(materia){
 }
 
 var pagina = window.location.pathname;
-
-var teste = document.getElementById("teste");
-teste.value = pagina;
-
 var amount = 3;
 var assunto = "marcelo_marmelo_martelo";
 var assuntoNome = "Marcelo, Marmelo, Martelo";
@@ -65,7 +61,9 @@ var materia = "literatura";
 var nivel = "Fácil";
 var pontos = 0;
 
-if (pagina == "/materias.html"){
+console.log("JavaScript Carregado.");
+
+if (pagina == "/Ficio/materias.html"){
   var mater = document.getElementById("materis");
   var level = document.getElementById("nivels");
   // Salva a Materia
@@ -100,7 +98,7 @@ if (pagina == "/materias.html"){
     localStorage.setItem('nivel', level.value);
   });
 
-}else if (pagina == "/assunto.html") {
+}else if (pagina == "/Ficio/assunto.html") {
   // Recarrega a Materia e o Nivel selecionado anteriormente
   const materia = localStorage.getItem('materia');
   const nivel = localStorage.getItem('nivel');
@@ -147,7 +145,7 @@ if (pagina == "/materias.html"){
     localStorage.setItem('assunto', selector.value);
     localStorage.setItem('amount', quantityDropdown.value);
   });
-}else if (pagina == "/questao.html") {
+}else if (pagina == "/Ficio/questao.html") {
 
   // Recarrega o Assunto, a Quantidade e o Nivel das Questões
   const assunto = localStorage.getItem('assunto');
