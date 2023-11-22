@@ -61,7 +61,7 @@ var materia = "literatura";
 var nivel = "Fácil";
 var pontos = 0;
 
-console.log("JavaScript Carregado.");
+console.log("JavaScript Carregado.\n Tudo deve funcionar agora");
 
 if (pagina == "/Ficio/materias.html"){
   var mater = document.getElementById("materis");
