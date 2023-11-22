@@ -108,6 +108,7 @@ if (pagina == "/Ficio/materias.html"){
 
   // Baseado na materia, filtra os assuntos
   var selector = FiltrarAssuntos(materia);
+  const quantityDropdown = document.getElementById('quantity');
 
   // Guarda o Assunto
   document.addEventListener('DOMContentLoaded', function () {
@@ -127,8 +128,6 @@ if (pagina == "/Ficio/materias.html"){
 
   // Guarda a Quantidade de Questões
   document.addEventListener('DOMContentLoaded', function () {
-    const quantityDropdown = document.getElementById('quantity');
-    
     if (localStorage[quantityDropdown.id]) { // if job is set
       quantityDropdown.value = localStorage[quantityDropdown.id]; // set the value
     }
