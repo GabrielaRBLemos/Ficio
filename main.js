@@ -1005,6 +1005,7 @@ if (pagina == "/Ficio/materias.html"){
   
   // Função que carrega o score final
   function loadScore() {
+    document.getElementById("perguntados").innerHTML = "Resultado";
     const totalScore = document.getElementById("score");
     const percCorrect = (score / qtd) * 100.0;
     totalScore.textContent = `${percCorrect.toFixed(0)}% de acerto\n${score} de ${qtd} questões certas`;
